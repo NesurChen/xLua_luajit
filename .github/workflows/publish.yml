@@ -20,5 +20,5 @@ jobs:
       - name: UploadJit
         uses: actions/upload-artifact@v4
         with:
-          path: ./build/build_lj64/Release
+          path: ./build/build_lj64/Release/
           name: plugin_luajit
