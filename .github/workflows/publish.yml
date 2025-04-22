@@ -18,7 +18,7 @@ jobs:
           cd build
           .\make_win64_luajit.bat
       - name: UploadJit
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           path: ./build/build_lj64/Release
           name: plugin_luajit
